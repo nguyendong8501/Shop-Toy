@@ -8,7 +8,7 @@ function checkLogin(){
     }
     else if(email =="nguyenthedong8501@gmail.com"&&pass == "12345"){
         alert("Đăng nhập thành công.");
-        open("main.html")
+        window.open("main.html","_self")
     }else if(pass==""){
         alert("Vui lòng nhập mật khẩu.");
     }else if(pass!="12345"){
@@ -34,5 +34,5 @@ function checkSignup(){
         alert("Xác nhận mật khẩu sai.");
     }else 
     alert("Đăng kí thành công! Đăng nhập ngay.");
-    open("main.html")
+    window.open("main.html","_self")
 }

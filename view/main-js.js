@@ -1,15 +1,6 @@
-const buttons = document.querySelectorAll('a');
-buttons.forEach(btn=>{
-    btn.addEventListener('click',function(e){
-        let x = e.clientX - e.target.offsetLeft;
-        let y = e.clientY - e.target.offsetTop;
-
-        let ripples = document.createElement('span');
-        ripples.style.left = x + 'px';
-        ripples.style.top = y + 'px';
-        this.appendChild(ripples);  
-        setTimeout(()=>{
-            ripples.remove()
-        },1000);                
-    })
-})
+// js cho search bar
+const icon = document.querySelector('.icon');
+const search = document.querySelector('.search');
+icon.onclick = function(){
+    search.classList.toggle('active')
+}
