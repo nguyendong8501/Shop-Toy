@@ -9,9 +9,10 @@
 </head>
 <body>
     <section class="banner" id="sec">
-<header>
-    <a href="#" class="logo">Logo</a>
+<div class="header">
+    <a href="main.html" class="logo">DuyDong</a>
     <div id="toggle"></div>
+    <!-- thanh tìm kiếm -->
     <div class="search">
         <div class="icon"></div>
            <div class="input">
@@ -19,13 +20,31 @@
        </div>
        <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
        </div>
-       <ul>
-           <li><a href="#" class="active">Home</a></li>
+       <ul class="tool">
+           <li><a href="main.html" class="active">Home</a></li>
            <li><a href="#">About</a></li>
            <li><a href="#">Word</a></li>
            <li><a href="#">Contact</a></li>
        </ul>
-</header>
+
+
+       <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="img/Sanji.png">
+        </div>
+        <div class="menu">
+            <h3>Nguyễn Thế Đồng <br><span>Newbie</span></h3>
+            <ul class="bar">
+                <li class="li"><img class="img" src="img/avatar1.png"><a class="a" href="">Hồ sơ</a></li>
+                <li class="li"><img class="img" src="img/cart.png"><a class="a" href="">Giỏ hàng của tôi</a></li>
+                <li class="li"><img class="img" src="img/logout.png"><a class="a" href="login.html">Đăng xuất</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+
     <div class="content">
         <h2>Shop đồ chơi,<hr><span>King of Toy <hr></span></h2>
         <p>Đến với chúng tôi để có được những món đồ chơi chính hãng, 
@@ -49,9 +68,9 @@
                     <h2>Gấu bông</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>30.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -62,9 +81,9 @@
                     <h2>Đồ chơi hải tặc</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>50.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail1.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -75,9 +94,9 @@
                     <h2>Đồ chơi cá sấu</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>20.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail2.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -88,9 +107,9 @@
                     <h2>Gà gặm kêu tiếng gà</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>10.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail3.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -101,9 +120,9 @@
                     <h2>Rubik 3x3x3</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>15.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail4.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -114,9 +133,9 @@
                     <h2>Đồ chơi xương rồng nhún nhảy</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>100.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail5.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -127,9 +146,9 @@
                     <h2>Đồ chơi đập phá ô băng</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>60.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail6.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -140,9 +159,9 @@
                     <h2>Ô tô điều khiển từ xa</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>200.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail7.html">Mua ngay</a>               
                 </div>
             </div>
             <div class="card">
@@ -153,9 +172,9 @@
                     <h2>Súng nước đồ chơi cho bé</h2>
                     <div class="size">
                         <h3>Giá :</h3>
-                        <span><span>30000đ</span></span>
+                        <span><span>70.000đ</span></span>
                     </div>
-                    <a href="Product-detail/detail.html">Mua ngay</a>               
+                    <a href="detail8.html">Mua ngay</a>               
                 </div>
             </div>
       

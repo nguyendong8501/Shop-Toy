@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Abc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="img/Sanji.png">
+        </div>
+        <div class="menu">
+            <h3>Nguyễn Thế Đồng <br><span>Newbie</span></h3>
+            <ul>
+                <li><img src="img/avatar1.png"><a href="">Hồ sơ</a></li>
+                <li><img src="img/cart.png"><a href="">Giỏ hàng của tôi</a></li>
+                <li><img src="img/logout.png"><a href="">Đăng xuất</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+</body>
+
+
+</html>
