@@ -145,7 +145,11 @@ header ul li a.active{
      background: #131313;
  }
  .product .container{
+     margin: 50px;
      position: relative;
+     display: grid;
+     grid-template-columns: 370px 370px 300px;
+     grid-template-rows: 500px 500px 510px;
  }
  .product .container .card{
      position: relative;
